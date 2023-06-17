@@ -1,0 +1,22 @@
+# Template file for 'tikzit'
+pkgname=tikzit
+version=2.6.1
+revision=1
+#archs="i686 x86_64"
+#build_wrksrc=
+build_style=qmake
+configure_args="-r"
+#make_build_args=""
+#make_install_args=""
+#conf_files=""
+#make_dirs="/var/log/dir 0755 root root"
+hostmakedepends="flex bison qt5-qmake qt5-host-tools"
+makedepends="poppler-qt5-devel poppler-cpp-devel"
+depends="qt5 poppler-qt5 hicolor-icon-theme"
+short_desc="Graphical PGF/TikZ diagram editor"
+maintainer="naptera <naptera@mailbox.org>"
+license="GPL-3.0-or-later"
+homepage="http://tikzit.github.io/"
+#changelog=""
+distfiles="https://github.com/tikzit/tikzit/archive/refs/tags/v2.1.6.tar.gz"
+checksum=40e160f654a25a3a36d6a5361eef71a51f9d3b5eec3b42dd9246ec26402149d1
